@@ -1,0 +1,102 @@
+@font-face{
+	font-family:main;
+	src:url("css/thin.ttf");
+}
+body{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin:0;
+	font-family: main;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	background: #435a6b;
+	color: white;
+	-webkit-user-select:none;
+	user-drag:none;
+}
+span{
+	position: relative;
+	top: 0;
+
+}
+h2{
+	text-decoration: overline;
+}
+h3{
+	text-decoration: overline;
+}
+#qno{
+	position: relative;
+	left: 46%;
+}
+#prev{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	width: 40%;
+	height: 200px;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+	background: #0e83cd;
+}
+#curr{
+	position: absolute;
+	top: 100px;
+	right: 50px;
+	width: 40%;
+	height: 200px;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+	background: #0e83cd;
+}
+#prev span{
+	position: relative;
+	border: 1px solid white;
+	display: block;
+	width:80%;
+	text-align: center;
+}
+#curr span{
+	position: relative;
+	border: 1px solid white;
+	display: block;
+	width:80%;
+	text-align: center;
+}
+#leaderboard h3{
+	text-decoration:none;
+}
+#leaderboard{
+	position: absolute;
+	top:350px;
+	left: 27%;
+	width: 40%;
+	height: 230px;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+	text-align: center;
+	background: #0e83cd;	
+}
+a{
+	position: relative;
+	top: 0;
+	margin:5px;
+	width:15px;
+	height:21px; 
+	display: inline-block;
+	padding: 20px 40px 20px 40px;
+	background:white;
+	color: #16499a ;
+	text-decoration: none;
+	font-weight: 800;
+}	
+a:hover{
+	color:white;
+	background: #16499a;
+	transition:background 0.3s;
+}
